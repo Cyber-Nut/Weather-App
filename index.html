@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Load Material Symbols without specifying icon names -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
     <div class="container">
 
-        <div class="search-conatainer">
-
+        <div class="search-container">
             <div class="search-input">
-
+                <input type="text" placeholder="Search for city...">
             </div>
             <div class="search-button">
-
+                <button>
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </button>
             </div>
-            <div class="icon">
+        </div>
+        
+        <div class="icon">
+            <span class="material-symbols-outlined">
+                wb_sunny
+            </span>
+        </div>
 
+        <div class="temp-container">
+            <!-- Temperature data will go here -->
+        </div>
+
+        <div class="add-container">
+            <div class="humidity-container">
+                <!-- Humidity data will go here -->
             </div>
-
-            <div class="temp-container">
-
-            </div>
-
-            <div class="add-container">
-                <div class="humdity-container">
-
-                </div>
-                <div class="wind-container">
-                    
-                </div>
+            <div class="wind-container">
+                <!-- Wind data will go here -->
             </div>
         </div>
     </div>
