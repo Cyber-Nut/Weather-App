@@ -46,6 +46,7 @@ body{
     border: none;
     margin-left: 2%;
     outline: none;
+    font-size: 1rem;
 }
 
 .search-container .search-button {
@@ -55,13 +56,15 @@ body{
     background-color: white;
     visibility: 90%;
     border: none;
-   margin-left: 3%;
+    margin-left: 3%;
 }
 .search-container .search-button button{
     height: 100%;
     width: 100%;
     border-radius: 50%;
     border: none;
+    cursor: pointer;
+    
 }
 .icon{
      height: 17%;
