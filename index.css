@@ -129,6 +129,21 @@ body{
 .wind-container span{
     font-size: 3rem;
 }
+.icon {
+    height: 17%; /* Adjust as needed */
+    width: 22%; /* Adjust as needed */
+    margin-top: 13%; /* Space above the icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    max-width: 100%; /* Responsive image */
+    max-height: 100%; /* Prevents overflow */
+    height: auto; /* Maintains aspect ratio */
+    visibility: hidden;
+}
 
 
 
